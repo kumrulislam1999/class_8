@@ -1,0 +1,283 @@
+/* Start Common Code */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    color: #ffffff;
+    font-weight: 800;
+}
+*/
+.font_style_1 {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.font_style_2 {
+    color: #7e8287;
+    font-weight: 800;
+}
+
+/* End Common Code */
+
+
+/* Start Header Section */
+#head_Section {
+    background-color: #02918c;
+}
+
+#head_Section>div.row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head_Section>div>div>ul.row>li>a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 26px 25.5px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+#head_Section a:hover {
+    background-color: #05bdb7;
+    border-image-source: url(../image/tree-.jpg);
+    border-image-slice: 10;
+    border-image-width: 3px;
+}
+
+/* End Header Section */
+
+
+/* Start Main Section */
+
+
+/* Start Banner Section 1 */
+#bannarSection1 {
+    height: 728px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.65)), url(./../image/bg_image_for_overlay.png) center/cover;
+}
+
+#bannarSection1>.row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 210px 0;
+}
+
+#bannarSection1>div.row>div>h3 {
+    font-size: 30px;
+    line-height: 25px;
+}
+
+#bannarSection1>div.row>div>h1 {
+    font-size: 68px;
+    line-height: 75px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+#bannarSection1>div.row>div>h5 {
+    font-size: 18px;
+    line-height: 33px;
+}
+
+#bannarSection1>div.row>div>img {
+    display: block;
+    margin: 52px auto;
+}
+
+#bannarSection1>div.row>div>a {
+    background-color: #cfc91d;
+    padding: 19px 43px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+#bannarSection1>div.row>div>a:hover {
+    background-color: #ebe41a;
+    border-image-source: url(./../image/pink-.jpg);
+    border-image-slice: 10;
+    border-image-width: 3px;
+}
+
+/* End Banner Section 1 */
+
+
+/* Start About Section  */
+#aboutSection>div.row {
+    padding: 98px 0;
+}
+
+div.aboutInfo {
+    text-align: center;
+    padding: 0 137px;
+    margin-bottom: 80px;
+}
+
+div.aboutInfo>h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+div.aboutInfo p {
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+    font-weight: 400;
+}
+
+div.aboutInfo>p b {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+
+.titleDetails {
+    width: 25%;
+    text-align: center;
+    padding: 37px 57px;
+    color: #7e8287;
+    border-right: 1px solid #d9dbdb;
+}
+
+.titleDetails:last-child {
+    border-right: transparent;
+}
+
+.titleDetails>img {
+    margin: 33px;
+}
+
+.titleDetails>h3 {
+    font-size: 16px;
+    line-height: 23px;
+    padding: 29px 0;
+}
+
+.titleDetails>p {
+    font-size: 11px;
+    line-height: 21px;
+}
+
+/* End About Section  */
+
+
+/* Start Service Section */
+#serviceSection {
+    background-color: #f0f0e8;
+    background-image: linear-gradient(rgba(240, 240, 232, 0.75), rgba(240, 240, 232, 0.67), rgba(240, 240, 232, 0.76)), url(./../image/service_section_bg_image.png);
+    background-position: right;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.left_align>div.row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.serviceHeading>h2 {
+    font-size: 46px;
+    color: #02918c;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+div.serviceHeadin>p {
+    font-size: 16px;
+    line-height: 41px;
+}
+
+div.serviceDetailsInfo {
+    width: 50%;
+    padding-right: 110px;
+    padding-top: 57px;
+}
+
+div.serviceDetailsInfo>img {
+    margin: 17px 0;
+}
+
+div.serviceDetailsInfo>p {
+    font-size: 11px;
+    line-height: 21px;
+}
+
+div.serviceDetailsInfo>h3 {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.left_align {
+    width: 50%;
+    padding: 74px 0;
+    color: #7e8287;
+}
+
+
+/* Start Service Section */
+
+
+/* Start My Work Section */
+#myWork .row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 110px auto;
+}
+
+#myWork h2 {
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+    line-height: 90px;
+}
+
+#myWork p {
+    font-size: 16px;
+    color: #7e8287;
+    line-height: 41px;
+}
+
+/* Start My Work Section */
+
+
+/* Start Image Gallery Section */
+/* Start Image Gallery Section */
+
+
+/* End Main Section */
