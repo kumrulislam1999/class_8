@@ -155,39 +155,45 @@ section>div>div>div.container {
 
 
 /* Start Title Section*/
-#section_three>.container{
+#section_three>.container {
     width: 1070px;
 }
 
-#section_three>div.flex_box{
+#section_three>div.flex_box {
     align-items: center;
 }
-.item_height_width{
+
+.item_height_width {
     text-align: center;
-    width:290px;
+    width: 290px;
     height: 250px;
     padding: 30px 30px;
     margin: auto;
 }
-.title_image>h3{font-size: 16px;
+
+.title_image>h3 {
+    font-size: 16px;
     font-weight: 800;
     color: #7e8287;
-    padding: 15px 0 ;
+    padding: 15px 0;
 }
 
-.title_image>p{font-size: 11px;
-    color: #7e8287; 
+.title_image>p {
+    font-size: 11px;
+    color: #7e8287;
     line-height: 21px;
     padding: 15px 0;
 }
 
-.title_image>img{
-    margin:auto;
-    display:inline-block;
-    
+.title_image>img {
+    margin: auto;
+    display: inline-block;
+
 }
 
-#section_three>div.flex_box>div.flex_box{align-items: center;}
+#section_three>div.flex_box>div.flex_box {
+    align-items: center;
+}
 
 
 
